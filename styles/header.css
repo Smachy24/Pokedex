@@ -1,0 +1,57 @@
+header{
+  display: flex;
+  font-weight: 700;
+  color: white;
+  font-size: 1.3em;
+  padding: 2em 0em;
+  margin: auto;
+  width: 75%;
+  align-items: center;
+  
+}
+
+.header-title{
+  width: 50%;
+  color: white;
+  font-size: 1.7em;
+  
+  
+}
+nav{
+  width: 50%;
+
+
+}
+nav ul{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  font-size: 0.9em;
+  font-weight: 700;
+  margin: 0;
+  max-height: 5em;
+  
+}
+
+nav a{
+  transition: all 0.2s;
+  padding-bottom: 0.5em;
+  cursor: pointer;
+  text-decoration: none;
+
+  
+  
+  
+}
+
+nav a:hover{
+  
+  border-bottom: 3px solid rgb(22, 22, 54);
+  color: rgb(22, 22, 54);
+  
+}
+
+
+
