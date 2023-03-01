@@ -6,6 +6,8 @@ async function fetchPokemon(){
   console.log(pokemonData)
   
   spriteEl = document.getElementsByClassName("pokemon-sprite");
-  spriteEl.src = pokemonSprite
+  spriteEl[0].src = pokemonSprite
   console.log(spriteEl.src)
 }
+
+// fetchPokemon()
