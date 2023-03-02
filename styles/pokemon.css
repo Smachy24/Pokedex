@@ -1,5 +1,12 @@
-.pokemon-sprite{
-  width: 200px;
-  height: 200px;
-  border: 1px solid red;
+
+.pokemon-card{
+    display: flex;
+    border : 1px solid red;
+    justify-content: center;
+}
+
+.pokemon-card-box{
+    background-color: rgb(22, 22, 54);
+    width: 90%;
+    
 }
